@@ -1,14 +1,144 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Day 1 Part 1",
             "type": "python",
             "request": "launch",
-            "program": "D:\\Interview Prep\\Coding\\Dynamic-Programming\\5-2.py",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\1-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 1 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\1-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 2 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\2-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 2 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\2-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 3 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\3-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 3 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\3-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 4 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\4-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 4 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\4-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 5 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\5-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 5 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\5-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 6 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\6-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 6 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\6-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 7 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\7-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 7 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\7-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 8 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\8-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 8 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\8-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 9 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\9-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 9 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\9-2.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 10 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\10-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 10 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\10-2.py",
             "console": "integratedTerminal"
         }
     ]
