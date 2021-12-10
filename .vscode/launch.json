@@ -140,6 +140,20 @@
             "request": "launch",
             "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\10-2.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 11 Part 1",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\11-1.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Day 11 Part 2",
+            "type": "python",
+            "request": "launch",
+            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\11-2.py",
+            "console": "integratedTerminal"
         }
     ]
 }
