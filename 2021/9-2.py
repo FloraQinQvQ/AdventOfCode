@@ -6,7 +6,7 @@ with open(file) as f:
     row += 1
     while line:
         line = f.readline()
-        if line.strip()!='':
+        if line.strip() != '':
             row += 1
 
 matrix = [[0 for _ in range(col)] for _ in range(row)]
@@ -19,7 +19,7 @@ with open(file) as f:
     row = 1
     while line:
         line = f.readline()
-        if line.strip()!='':
+        if line.strip() != '':
             for idx, ele in enumerate(line.strip()):
                 matrix[row][idx] = int(ele)
             row += 1
@@ -40,22 +40,24 @@ for i in range(len(matrix)):
             data.append((i, j))
 
 
-def get_size(matrix, i,j, direction, size = 0):
+def get_size(matrix, i, j, direction, size=0):
     ii = i + direction[0]
     jj = j + direction[1]
     if ii < 0 or jj < 0 or ii > len(matrix)-1 or jj > len(matrix[0])-1:
         return size
     if matrix[ii][jj] == 9:
         return size
-    
+
     if matrix[i][j] < matrix[ii][jj] and footprint[ii][jj] != 1:
         size += 1
         footprint[ii][jj] = 1
         for direct in directions:
-            if direct[0]==-direction[0] and direct[1]==-direction[1]:
+            if direct[0] == -direction[0] and direct[1] == -direction[1]:
                 continue
             size = get_size(matrix, ii, jj, direct, size)
     return size
+
+
 total = []
 for datum in data:
     size = 1
@@ -64,5 +66,4 @@ for datum in data:
     total.append(size)
 
 total = sorted(total, reverse=True)
-# 1391940
-print(total[0] * total[1]* total[2])
+print(total[0] * total[1] * total[2])

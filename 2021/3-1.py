@@ -11,22 +11,14 @@ for idx, input in enumerate(inputs):
         else:
             map[index] += 1
 
-# gamma = ''
-# epsilon = ''
 gamma = 0
 epsilon = 0
 for idx, element in enumerate(map):
     if element > 0:
-        # gamma += '1'
-        # epsilon += '0'
-
         gamma += pow(2, len(map)-1 - idx) * 1
         epsilon += pow(2, len(map)-1 - idx) * 0
 
     else:
-        # gamma += '0'
-        # epsilon += '1'
-
         gamma += pow(2, len(map)-1 - idx) * 0
         epsilon += pow(2, len(map)-1 - idx) * 1
 

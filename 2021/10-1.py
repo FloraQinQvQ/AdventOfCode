@@ -23,7 +23,3 @@ sum = 0
 for corr in corrupted:
     sum += points[corr]
 print(sum)
-
-
-
-

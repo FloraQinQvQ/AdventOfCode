@@ -14,4 +14,3 @@ for ele in data:
 
 print(data)
 print(total)
-

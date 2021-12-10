@@ -42,7 +42,3 @@ scores = sorted(scores)
 
 print(scores)
 print(scores[int(len(scores)/2)])
-
-
-
-

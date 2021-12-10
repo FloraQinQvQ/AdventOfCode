@@ -34,11 +34,11 @@ for board in boards:
         combinations.append(column(board, i))
 max_indexes = []
 combines = []
-for combi in combinations:
-    if set(combi).issubset(set(inputs)):
-        max_index_per_combi = max([inputs.index(element)for element in combi])
-        max_indexes.append(max_index_per_combi)
-        combines.append(combi)
+for comb in combinations:
+    if set(comb).issubset(set(inputs)):
+        max_index_per_comb = max([inputs.index(element)for element in comb])
+        max_indexes.append(max_index_per_comb)
+        combines.append(comb)
 
 zipped_lists = zip(max_indexes, combines)
 sorted_pairs = sorted(zipped_lists)
@@ -57,8 +57,6 @@ for idx, list in enumerate(list1):
         if int(combinations.index(target_row)/10) != board_options[0]:
             continue
         else:
-            print(int(combinations.index(target_row)/10))
-            print(target_row)
             break
 
 target_board = boards[board_options[0]]

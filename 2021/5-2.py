@@ -71,11 +71,11 @@ for coordinate in coordinates:
         while x < x2:
             matrix[x][y1] += 1
             x += 1
-totoa = 0
+total = 0
 for i in range(max_x+1):
     for j in range(max_y+1):
         if matrix[i][j] >= 2:
-            totoa += 1
+            total += 1
 
 
-pprint(totoa)
+pprint(total)

@@ -6,7 +6,7 @@ with open(file) as f:
     row += 1
     while line:
         line = f.readline()
-        if line.strip()!='':
+        if line.strip() != '':
             row += 1
 
 matrix = [[0 for _ in range(col)] for _ in range(row)]
@@ -18,7 +18,7 @@ with open(file) as f:
     row = 1
     while line:
         line = f.readline()
-        if line.strip()!='':
+        if line.strip() != '':
             for idx, ele in enumerate(line.strip()):
                 matrix[row][idx] = int(ele)
             row += 1
@@ -31,7 +31,7 @@ for i in range(len(matrix)):
         for direction in directions:
             ii = i + direction[0]
             jj = j + direction[1]
-            if ii < 0 or jj < 0 or ii > len(matrix)-1 or jj > len(matrix[0])-1:
+            if ii < 0 or jj < 0 or ii > len(matrix) - 1 or jj > len(matrix[0]) - 1:
                 continue
             if matrix[i][j] >= matrix[ii][jj]:
                 flag = True
@@ -39,6 +39,3 @@ for i in range(len(matrix)):
             data.append(matrix[i][j])
 
 print(sum([ele + 1 for ele in data]))
-
-
-

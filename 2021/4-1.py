@@ -38,12 +38,12 @@ for board in boards:
         combinations.append(column(board, i))
 max_index = len(inputs)
 minimal_choices = None
-for combi in combinations:
-    if set(combi).issubset(set(inputs)):
-        max_index_per_combi = max([inputs.index(element)for element in combi])
-        if max_index_per_combi < max_index:
-            max_index = max_index_per_combi
-            minimal_choices = combi
+for comb in combinations:
+    if set(comb).issubset(set(inputs)):
+        max_index_per_comb = max([inputs.index(element)for element in comb])
+        if max_index_per_comb < max_index:
+            max_index = max_index_per_comb
+            minimal_choices = comb
 
 board_number = int(combinations.index(minimal_choices)/10)
 
