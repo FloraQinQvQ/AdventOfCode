@@ -1,5 +1,3 @@
-from pprint import pprint
-
 row = col = 0
 file = './2021/inputs/9.txt'
 with open(file) as f:
