@@ -1,4 +1,4 @@
-f = open('4.txt')
+f = open('./2021/inputs/4.txt')
 content = f.read()
 
 contents = content.splitlines()

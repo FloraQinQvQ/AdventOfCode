@@ -1,5 +1,5 @@
 from pprint import pprint
-f = open('5.txt')
+f = open('./2021/inputs/5.txt')
 content = f.read()
 contents = content.splitlines()
 

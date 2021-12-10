@@ -1,4 +1,4 @@
-f = open('4.txt')
+f = open('./2021/inputs/4.txt')
 content = f.read()
 
 contents = content.splitlines()
@@ -44,10 +44,6 @@ for combi in combinations:
         if max_index_per_combi < max_index:
             max_index = max_index_per_combi
             minimal_choices = combi
-
-print(max_index)
-print(minimal_choices)
-print(inputs[max_index])
 
 board_number = int(combinations.index(minimal_choices)/10)
 

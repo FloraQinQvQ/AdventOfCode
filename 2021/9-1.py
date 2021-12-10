@@ -1,8 +1,7 @@
 from pprint import pprint
 
 row = col = 0
-file = './2021/9.txt'
-# file = './2021/9-sample.txt'
+file = './2021/inputs/9.txt'
 with open(file) as f:
     line = f.readline()
     col = len(line.strip())
