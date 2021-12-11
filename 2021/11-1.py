@@ -13,8 +13,7 @@ for i, line in enumerate(lines):
     for j, ele in enumerate(line.strip()):
         matrix[i][j] = int(ele)
 
-directions = [[-1, 0], [1, 0], [0, -1],
-              [0, 1],
+directions = [[-1, 0], [1, 0], [0, -1], [0, 1],
               [1, 1], [-1, -1], [1, -1], [-1, 1]]
 
 flashes = 0
