@@ -154,13 +154,16 @@ def calc_magnitude(root):
         return 3*calc_magnitude(root.left) + 2*calc_magnitude(root.right)
 
 
-# Alright great
-root = construct_btree(data[0])
+ans = 0
 
-i = 1
-while i < len(data):
-    root = add(root, construct_btree(data[i]))
-    i += 1
+for i in range(len(data)):
+    for j in range(len(data)):
+        if i == j:
+            continue
 
-ans = calc_magnitude(root)
+        tmp_mag = calc_magnitude(
+            add(construct_btree(data[i]), construct_btree(data[j])))
+
+        ans = max([ans, tmp_mag])
+
 print(ans)
