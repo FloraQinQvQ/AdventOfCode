@@ -1,10 +1,10 @@
 from itertools import product
 
-f = open('24.txt')
+f = open('2021/inputs/24.txt')
 lines = f.read().splitlines()
 
 
-def construct_z_calcs():
+def construct_ups_downs():
     global lines
     ups = [None for _ in range(14)]
     downs = [None for _ in range(14)]
@@ -50,8 +50,7 @@ def works(number, ups, downs):
 
 
 numbers = product(range(9, 0, -1), repeat=7)
-# numbers = product(range(1, 10, 1), repeat=7)
-ups, downs = construct_z_calcs()
+ups, downs = construct_ups_downs()
 for number in numbers:
     res = works(number, ups, downs)
     if res is not None:
