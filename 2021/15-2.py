@@ -1,3 +1,5 @@
+import heapq
+
 f = open('2021/inputs/15-sample.txt')
 lines = f.read().splitlines()
 
