@@ -24,5 +24,3 @@ for idx, element in enumerate(map):
 
 print(gamma, epsilon)
 print(gamma*epsilon)
-
-
