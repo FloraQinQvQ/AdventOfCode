@@ -343,13 +343,6 @@
             "request": "launch",
             "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\25-1.py",
             "console": "integratedTerminal"
-        },
-        {
-            "name": "Day 25 Part 2",
-            "type": "python",
-            "request": "launch",
-            "program": "D:\\Interview Prep\\Coding\\AdventOfCode\\2021\\25-2.py",
-            "console": "integratedTerminal"
         }
     ]
 }
